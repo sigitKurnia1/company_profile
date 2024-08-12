@@ -176,7 +176,8 @@
                     <div class="service-item d-flex position-relative h-100">
                         <i class="bi bi-briefcase icon flex-shrink-0"></i>
                         <div>
-                            <h4 class="title"><a href="service-details.html" class="stretched-link">Divisi Eksplorasi</a></h4>
+                            <h4 class="title"><a href="#" class="stretched-link">Divisi
+                                    Eksplorasi</a></h4>
                             <p class="description"> Bertanggung jawab untuk menemukan cadangan minyak dan gas baru</p>
                         </div>
                     </div>
@@ -186,7 +187,7 @@
                     <div class="service-item d-flex position-relative h-100">
                         <i class="bi bi-card-checklist icon flex-shrink-0"></i>
                         <div>
-                            <h4 class="title"><a href="service-details.html" class="stretched-link">Divisi Produksi</a>
+                            <h4 class="title"><a href="#" class="stretched-link">Divisi Produksi</a>
                             </h4>
                             <p class="description">Mengelola operasi produksi minyak dan gas</p>
                         </div>
@@ -197,8 +198,10 @@
                     <div class="service-item d-flex position-relative h-100">
                         <i class="bi bi-bar-chart icon flex-shrink-0"></i>
                         <div>
-                            <h4 class="title"><a href="service-details.html" class="stretched-link">Divisi Pemurnian & Distribusi</a></h4>
-                            <p class="description">Mengurus pemurnian minyak mentah dan distribusi produk minyak dan gas</p>
+                            <h4 class="title"><a href="#" class="stretched-link">Divisi Pemurnian &
+                                    Distribusi</a></h4>
+                            <p class="description">Mengurus pemurnian minyak mentah dan distribusi produk minyak dan gas
+                            </p>
                         </div>
                     </div>
                 </div><!-- End Service Item -->
@@ -207,7 +210,8 @@
                     <div class="service-item d-flex position-relative h-100">
                         <i class="bi bi-binoculars icon flex-shrink-0"></i>
                         <div>
-                            <h4 class="title"><a href="service-details.html" class="stretched-link">Divisi Keuangan & Administrasi</a>
+                            <h4 class="title"><a href="#" class="stretched-link">Divisi Keuangan &
+                                    Administrasi</a>
                             </h4>
                             <p class="description">Mengelola keuangan, sumber daya manusia, dan administrasi perusahaan</p>
                         </div>
@@ -218,7 +222,8 @@
                     <div class="service-item d-flex position-relative h-100">
                         <i class="bi bi-brightness-high icon flex-shrink-0"></i>
                         <div>
-                            <h4 class="title"><a href="service-details.html" class="stretched-link">Divisi Keuangan & Lingkungan</a></h4>
+                            <h4 class="title"><a href="#" class="stretched-link">Divisi Keuangan &
+                                    Lingkungan</a></h4>
                             <p class="description"> Menjaga kepatuhan terhadap standar keselamatan dan lingkungan</p>
                         </div>
                     </div>
@@ -281,14 +286,15 @@
             <div class="row gy-4">
 
                 @foreach ($product as $item)
-                    <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-                        <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
-                        <div>
-                            <h4 class="title">{{ $item->name }}</h4>
-                            <p class="description">{{ $item->description }}</p>
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                        <div class="service-item d-flex position-relative h-100">
+                            <i class="bi bi-binoculars icon flex-shrink-0"></i>
+                            <div>
+                                <h4 class="title"><a href="service-details.html" class="stretched-link">{{ $item->name }}</a></h4>
+                                <p class="description">{{ $item->description }}</p>
+                            </div>
                         </div>
-                    </div>
-                    <!-- End Service Item -->
+                    </div><!-- End Service Item -->
                 @endforeach
 
             </div>
@@ -368,11 +374,9 @@
                             <div class="portfolio-info">
                                 <h4>{{ $item->title }}</h4>
                                 <p>{{ $item->cateogry }}</p>
-                                <a href="assets/images/project/{{ $item->image_url }}" title="App 1"
+                                <a href="assets/images/project/{{ $item->image_url }}" title="{{ $item->description }}"
                                     data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
                                         class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
                             </div>
                         </div><!-- End Portfolio Item -->
                     @endforeach
