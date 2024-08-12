@@ -159,6 +159,77 @@
         </div>
     </section><!-- /About Section -->
 
+    <!-- Services Section -->
+    <section id="organisasi" class="services section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Struktur Organisasi</h2>
+            <p>Berikut ini adalah struktur organisasi dari perusaahan Pertama Untuk Rakyat.</p>
+        </div><!-- End Section Title -->
+
+        <div class="container">
+
+            <div class="row gy-4">
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-item d-flex position-relative h-100">
+                        <i class="bi bi-briefcase icon flex-shrink-0"></i>
+                        <div>
+                            <h4 class="title"><a href="service-details.html" class="stretched-link">Divisi Eksplorasi</a></h4>
+                            <p class="description"> Bertanggung jawab untuk menemukan cadangan minyak dan gas baru</p>
+                        </div>
+                    </div>
+                </div><!-- End Service Item -->
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-item d-flex position-relative h-100">
+                        <i class="bi bi-card-checklist icon flex-shrink-0"></i>
+                        <div>
+                            <h4 class="title"><a href="service-details.html" class="stretched-link">Divisi Produksi</a>
+                            </h4>
+                            <p class="description">Mengelola operasi produksi minyak dan gas</p>
+                        </div>
+                    </div>
+                </div><!-- End Service Item -->
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-item d-flex position-relative h-100">
+                        <i class="bi bi-bar-chart icon flex-shrink-0"></i>
+                        <div>
+                            <h4 class="title"><a href="service-details.html" class="stretched-link">Divisi Pemurnian & Distribusi</a></h4>
+                            <p class="description">Mengurus pemurnian minyak mentah dan distribusi produk minyak dan gas</p>
+                        </div>
+                    </div>
+                </div><!-- End Service Item -->
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-item d-flex position-relative h-100">
+                        <i class="bi bi-binoculars icon flex-shrink-0"></i>
+                        <div>
+                            <h4 class="title"><a href="service-details.html" class="stretched-link">Divisi Keuangan & Administrasi</a>
+                            </h4>
+                            <p class="description">Mengelola keuangan, sumber daya manusia, dan administrasi perusahaan</p>
+                        </div>
+                    </div>
+                </div><!-- End Service Item -->
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-item d-flex position-relative h-100">
+                        <i class="bi bi-brightness-high icon flex-shrink-0"></i>
+                        <div>
+                            <h4 class="title"><a href="service-details.html" class="stretched-link">Divisi Keuangan & Lingkungan</a></h4>
+                            <p class="description"> Menjaga kepatuhan terhadap standar keselamatan dan lingkungan</p>
+                        </div>
+                    </div>
+                </div><!-- End Service Item -->
+
+            </div>
+
+        </div>
+
+    </section><!-- /Services Section -->
+
     <!-- Stats Section -->
     <section id="stats" class="stats section light-background">
 
