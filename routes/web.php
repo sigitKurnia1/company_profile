@@ -23,6 +23,9 @@ use App\Http\Controllers\Auth\AuthController;
 Route::group(['middleware' => 'guest'], function() {
     Route::get('/', [GuestController::class, 'index'])->name('dashboard');
 
+    Route::get('/news', [GuestController::class, 'news'])->name('news');
+    Route::get('/news-{id}', [GuestController::class, 'detail_news'])->name('detail.news');
+
     Route::get('/login', [AuthController::class, 'login'])->name('login');
     Route::post('/post-login', [AuthController::class, 'post_login'])->name('post.login');
 });
